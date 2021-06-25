@@ -1,0 +1,195 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>MeowPIC&#39;s Blog</title>
+<link rel="shortcut icon" href="https://blog.meowpic.com/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://blog.meowpic.com/media/css/tailwind.css">
+<link rel="stylesheet" href="https://blog.meowpic.com/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="MeowPIC&#39;s Blog - Atom Feed" href="https://blog.meowpic.com/atom.xml">
+
+    
+
+  <meta name="description" content="MeowPIC 诞生的原因是草根站长对 Web 的热爱" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档
+      </a>
+    
+      <a href="/post/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于
+      </a>
+    
+    <a href="https://blog.meowpic.com/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto ">
+      
+        <header class="flex py-16 md:py-32 mt-12 flex-col md:flex-row px-4 md:px-0 animated fadeIn">
+  <div class="flex-1 order-2 md:order-1 md:pr-16">
+    <div class="text-4xl font-bold text-center md:text-left">
+      MeowPIC&#39;s Blog
+    </div>
+    <div class="text-xl text-gray-500 mt-4 text-center md:text-left">
+      MeowPIC 诞生的原因是草根站长对 Web 的热爱
+    </div>
+    
+    
+  </div>
+  <div class="md:mx-8 flex-shrink-0 self-start rounded-full border-4 border-dotted border-transparent hover:border-yellow-50 p-2 w-32 h-32 order-1 md:order-2 mx-auto s3-dotted">
+    <img class="rounded-full object-cover" src="https://blog.meowpic.com/images/avatar.png?v=1624617897371" alt="MeowPIC&#39;s Blog" width="100%" height="100%">
+  </div>
+</header>
+      
+
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+      <i class="ri-star-line text-orange-200 absolute text-2xl left-0 ml-1 rotate-90"></i>
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://blog.meowpic.com/post/server/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          MeowPIC (公共) 图片存储服务器详细
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-03-01</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        MeowPIC (公共) 图片存储服务器详细表格 (不包含私有定制节点)
+
+
+
+服务器
+节点域名
+存储位置
+
+
+
+
+游客组节点
+i.jpg.gay
+[US]Sterling
+
+
+注册组节点
+i1.atlascloud.cn
+[CN]Hong...
+      </div>
+      <a href="https://blog.meowpic.com/post/server/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://blog.meowpic.com/post/404-vid/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          404 视频存储服务 (MeowPIC视频床)
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-05-23</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        
+在漫长的等待中，他终于来了
+
+地址：https://vid.404.pw
+如何使用？
+打开 https://vid.404.pw/signup 注册一个账户。然后就可以开始您的上传之旅了~
+限制？
+限制上传的格式为视频格式
+wmv,avi...
+      </div>
+      <a href="https://blog.meowpic.com/post/404-vid/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://blog.meowpic.com/post/2021-05-01/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          5.1 - 劳动最光荣
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-05-01</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        五一快乐！
+这里送出20个喵图扩容码，祝大家五一劳动节快乐
+10G扩容码(5个)
+
+e68b1951a30d377294ddd3f7397829081a972543c61acfb4b7f2fdb5ebdece49 d0318ce4a1817...
+      </div>
+      <a href="https://blog.meowpic.com/post/2021-05-01/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://p1.atlascloud.cn/2021/04/30/3c32f0430102324.png" alt="5.1 - 劳动最光荣">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://blog.meowpic.com/post/tourist-upload/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          关于游客上传图片的问题
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-03-16</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        由于图床是公共的，未注册的用户上传的图片有一大部分都是一些不好的图片
+所以游客用户组上传的图片都放在了欧美/亚太地区，没有大陆CDN
+需要快速的图片CDN服务注册即可~
+...
+      </div>
+      <a href="https://blog.meowpic.com/post/tourist-upload/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+  
+      </div>
+
+      
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://meowpic.com" target="_blank">MeowPIC</a>
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://blog.meowpic.com/media/scripts/main.js"></script>
+</body>
+
+</html>
