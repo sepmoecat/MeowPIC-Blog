@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.meowpic.com</id>
     <title>MeowPIC&apos;s Blog</title>
-    <updated>2021-07-05T05:40:22.018Z</updated>
+    <updated>2021-07-23T18:30:24.957Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.meowpic.com"/>
     <link rel="self" href="https://blog.meowpic.com/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://blog.meowpic.com/images/avatar.png</logo>
     <icon>https://blog.meowpic.com/favicon.ico</icon>
     <rights>All rights reserved 2021, MeowPIC&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[MeowPIC CDN 组成]]></title>
+        <id>https://blog.meowpic.com/post/eYXcNRL36/</id>
+        <link href="https://blog.meowpic.com/post/eYXcNRL36/">
+        </link>
+        <updated>2021-07-23T18:30:01.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="meowpic-cdn-组成">MeowPIC CDN 组成</h1>
+<p>|域名|境内 CDN|境外CDN(包括港澳台)<br>
+| ------------ | ------------ |<br>
+|i.jpg.gay|自建中国优化境外节点|Cloudflare Pro<br>
+|i1.atlascloud.cn|腾讯云 CDN|Cloudflare Pro<br>
+|p1.atlascloud.cn|腾讯云 CDN|Cloudflare Pro</p>
+<p><strong>Cloudflare Pro 已针对亚洲网络进行优化，我们尽力的让港澳台用户到节点的延迟不超过 50ms</strong></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[启用 JPG.GAY 域名]]></title>
         <id>https://blog.meowpic.com/post/jpg-gay/</id>
