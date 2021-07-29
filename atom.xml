@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.meowpic.com</id>
     <title>MeowPIC&apos;s Blog</title>
-    <updated>2021-07-23T18:52:41.034Z</updated>
+    <updated>2021-07-29T08:56:25.845Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.meowpic.com"/>
     <link rel="self" href="https://blog.meowpic.com/atom.xml"/>
@@ -74,9 +74,6 @@
 <code>wmv,avi,ts,mpeg,mpg,rmvb,flv,mp4,mov,vob,mkv,f4v,m4v,swf,webm</code><br>
 限制大小为200Mb</p>
 <h4 id="禁止上传任何色情违法的文件-违者我们会带着相关证据向有关部门举报">禁止上传任何色情，违法的文件。违者我们会带着相关证据向有关部门举报。</h4>
-<p>这里是一个测试视频：<br>
-https://sg01-video.wget.icu/2021/05/19/cO8Cz07f_%5B%EC%86%8C%EB%85%80%EB%8B%B9GirlsRepublic%5D%EB%94%B0%EB%9C%BB%ED%95%9C%EC%98%A4%ED%9B%84%EB%82%AE%EC%9E%A0%EC%9E%90%EB%8A%94%EA%B2%BD%EC%9B%90.mp4</p>
-<p><em>NSFW</em></p>
 ]]></content>
     </entry>
     <entry>
@@ -103,17 +100,6 @@ https://sg01-video.wget.icu/2021/05/19/cO8Cz07f_%5B%EC%86%8C%EB%85%80%EB%8B%B9Gi
 <p>先到先得，一个账户仅可使用一个扩容码。<br>
 <a href="https://p1.atlascloud.cn/2021/04/30/9913b0430103417.png"><img src="https://p1.atlascloud.cn/2021/04/30/9913b0430103417.png" alt="" loading="lazy"></a><br>
 <a href="https://p1.atlascloud.cn/2021/04/30/b66670430103418.png"><img src="https://p1.atlascloud.cn/2021/04/30/b66670430103418.png" alt="" loading="lazy"></a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于游客上传图片的问题]]></title>
-        <id>https://blog.meowpic.com/post/tourist-upload/</id>
-        <link href="https://blog.meowpic.com/post/tourist-upload/">
-        </link>
-        <updated>2021-03-15T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h5 id="由于图床是公共的未注册的用户上传的图片有一大部分都是一些不好的图片">由于图床是公共的，未注册的用户上传的图片有一大部分都是一些不好的图片</h5>
-<h5 id="所以游客用户组上传的图片都放在了欧美亚太地区没有大陆cdn">所以游客用户组上传的图片都放在了欧美/亚太地区，没有大陆CDN</h5>
-<h5 id="需要快速的图片cdn服务注册即可~">需要快速的图片CDN服务注册即可~</h5>
 ]]></content>
     </entry>
     <entry>
